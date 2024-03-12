@@ -47,6 +47,7 @@ Path Parameter:
 id: Movie ID
 Response:
 JSON containing a success message, deleted movie details, or an error if the movie is not found or the user lacks admin privileges.
+
 Authentication
 The API requires proper user authentication, and certain endpoints are restricted to users with the "admin" role. Unauthorized access to these endpoints will result in a 403 Forbidden response.
 
